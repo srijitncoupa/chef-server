@@ -1,3 +1,13 @@
+GIT
+  remote: https://github.com/chef/chef_secrets
+  revision: be7388bab6ffb74c3008622a96bf1694278f5be7
+  ref: be7388bab6ffb74c3008622a96bf1694278f5be7
+  branch: lbaker/upgrade-erlang-24.2
+  specs:
+    veil!
+      bcrypt (~> 3.1)
+      pbkdf2
+
 GEM
   remote: https://rubygems.org/
   specs:
