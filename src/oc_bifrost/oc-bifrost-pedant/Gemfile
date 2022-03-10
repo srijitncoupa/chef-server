@@ -1,7 +1,9 @@
-source 'https://rubygems.org'
+##source 'https://rubygems.org'
+##
+##gemspec
+#
+## TODO(ssd) 2017-03-15: This in in this gemfile because bifrost
+## expects it to be in the path
+##gem 'veil'
 
-gemspec
-
-# TODO(ssd) 2017-03-15: This in in this gemfile because bifrost
-# expects it to be in the path
-gem 'veil'
+gem 'veil', git: 'https://github.com/chef/chef_secrets', branch: 'lbaker/upgrade-erlang-24.2', ref: 'be7388bab6ffb74c3008622a96bf1694278f5be7'
